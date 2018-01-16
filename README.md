@@ -6,6 +6,10 @@ https://blog.quarkslab.com/building-an-obfuscated-python-interpreter-we-need-mor
 增加了3条指令用于混淆，比较2.7.9源码就可以看到对应改动 
 
 ./python test_op.py
+
+
+
+
   2           0 <148>                    1
               3 COMPARE_OP               4 (>)
               6 POP_JUMP_IF_FALSE       31
